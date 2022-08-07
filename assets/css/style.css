@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 38px;
+    color: #8ABF17;
+
+    background-color: #000;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+canvas {
+    border: 20px solid #262626;
+    border-radius: 10px;
+}
